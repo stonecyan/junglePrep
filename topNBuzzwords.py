@@ -1,6 +1,7 @@
 import heapq
 import re
 
+#O(NlogK)
 def topNBuzzwords(numToys, topToys, toys, numQuotes, quotes):
 	#toy:[count, quoteCount]
 	toysFreq = {}
