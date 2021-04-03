@@ -11,3 +11,5 @@ def maximumUnits(boxTypes, truckSize):
                 units+=truckSize*b[1]
                 return units
         return units
+
+#can also you heap/priority queue and popoff largest
