@@ -3,6 +3,8 @@ import heapq
 li = [5, 7, 9, 1, 3]
 heapq.heapify(li)
 
+#multiply values by -1 for max heap
+
 # using heappush() to push elements into heap
 # pushes 4
 heapq.heappush(li,4)
