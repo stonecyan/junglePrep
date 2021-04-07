@@ -18,6 +18,7 @@ def optimizeBoxWeight(arr):
     if subsetSum>halfSum:
       #if output is not empty 
       if not output or len(subset)<len(output):
+      #if not output:
         output=subset
         outputSum=sum(output)
       #iterate through and check if subsetSum is greater than outputSum
